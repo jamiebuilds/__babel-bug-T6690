@@ -1,1 +1,1 @@
-import * as foo from '../index.js';
+import * as foo from './bar.js';
