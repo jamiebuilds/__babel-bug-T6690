@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel index.js"
+    "build": "babel index.js --plugins transform-es2015-modules-umd",
+    "test-require-hook": "BABEL_CACHE_PATH=\"$(pwd)/cache.json\" node test-require-hook.js"
   },
   "author": "James Kyle <me@thejameskyle.com>",
   "license": "ISC",

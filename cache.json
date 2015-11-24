@@ -1,0 +1,465 @@
+{
+  "{\"filename\":\"/Users/joegrund/Desktop/__babel-bug-T6690/index.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false}:6.2.1": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireWildcard"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "./bar.js",
+            "imported": [
+              "*"
+            ],
+            "specifiers": [
+              {
+                "kind": "namespace",
+                "local": "foo"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/joegrund/Desktop/__babel-bug-T6690/index.js",
+      "filenameRelative": "/Users/joegrund/Desktop/__babel-bug-T6690/index.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "index.js",
+      "sourceFileName": "index.js",
+      "babelrc": true,
+      "sourceType": "module",
+      "moduleIds": false,
+      "basename": "index"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\n(function (global, factory) {\n  if (typeof define === \"function\" && define.amd) {\n    define(['exports', './bar.js'], factory);\n  } else if (typeof exports !== \"undefined\") {\n    factory(exports, require('./bar.js'));\n  } else {\n    var mod = {\n      exports: {}\n    };\n    factory(mod.exports, global.bar);\n    global.index = mod.exports;\n  }\n})(this, function (exports) {\n  (function (global, factory) {\n    if (typeof define === \"function\" && define.amd) {\n      define(['./bar.js'], factory);\n    } else if (typeof exports !== \"undefined\") {\n      factory();\n    } else {\n      var mod = {\n        exports: {}\n      };\n      factory(global.bar);\n      global.index = mod.exports;\n    }\n  })(this, function (_bar) {\n    var foo = _interopRequireWildcard(_bar);\n\n    function _interopRequireWildcard(obj) {\n      if (obj && obj.__esModule) {\n        return obj;\n      } else {\n        var newObj = {};\n\n        if (obj != null) {\n          for (var key in obj) {\n            if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key];\n          }\n        }\n\n        newObj.default = obj;\n        return newObj;\n      }\n    }\n  });\n});\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [],
+      "names": [],
+      "mappings": "",
+      "file": "index.js",
+      "sourcesContent": []
+    },
+    "mtime": 1448371016000
+  },
+  "{\"filename\":\"/Users/joegrund/Desktop/__babel-bug-T6690/bar.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false}:6.2.1": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/Users/joegrund/Desktop/__babel-bug-T6690/bar.js",
+      "filenameRelative": "/Users/joegrund/Desktop/__babel-bug-T6690/bar.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "bar.js",
+      "sourceFileName": "bar.js",
+      "babelrc": true,
+      "sourceType": "module",
+      "moduleIds": false,
+      "basename": "bar"
+    },
+    "ignored": false,
+    "code": "\"use strict\";\n\n(function (global, factory) {\n  if (typeof define === \"function\" && define.amd) {\n    define([\"exports\"], factory);\n  } else if (typeof exports !== \"undefined\") {\n    factory(exports);\n  } else {\n    var mod = {\n      exports: {}\n    };\n    factory(mod.exports);\n    global.bar = mod.exports;\n  }\n})(this, function (exports) {\n  (function (global, factory) {\n    if (typeof define === \"function\" && define.amd) {\n      define([], factory);\n    } else if (typeof exports !== \"undefined\") {\n      factory();\n    } else {\n      var mod = {\n        exports: {}\n      };\n      factory();\n      global.bar = mod.exports;\n    }\n  })(this, function () {});\n});\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJiYXIuanMiLCJzb3VyY2VzQ29udGVudCI6W119",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [],
+      "names": [],
+      "mappings": "",
+      "file": "bar.js",
+      "sourcesContent": []
+    },
+    "mtime": 1448371009000
+  }
+}
